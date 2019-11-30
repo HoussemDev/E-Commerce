@@ -23,15 +23,23 @@ public class UserRegistrationPage extends PageBase {
     WebElement pswdConfirmTxt;
     @FindBy(id="register-button")
     WebElement registerBtn;
+    @FindBy(css = "div.result")
+    public WebElement successMsg;
+    @FindBy(linkText = "Log out")
+    public WebElement logoutLink;
 
     public void userRegistration(String name, String lastName, String email, String pswd){
-        genderRdoBtn.click();
-        firstNameTxt.sendKeys(name);
-        lastNameTxt.sendKeys(lastName);
-        emailTxt.sendKeys(email);
-        pswdTxt.sendKeys(pswd);
-        pswdConfirmTxt.sendKeys(pswd);
-        registerBtn.click();
+        clickButton(genderRdoBtn);
+        setTextElementText(firstNameTxt, name);
+        setTextElementText(lastNameTxt, lastName);
+        setTextElementText(emailTxt, email);
+        setTextElementText(pswdTxt, pswd);
+        setTextElementText(pswdConfirmTxt, pswd);
+        clickButton(registerBtn);
+    }
+
+    public void userLogout(){
+        clickButton(logoutLink);
     }
 
 }

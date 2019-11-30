@@ -11,9 +11,13 @@ public class HomePage extends PageBase {
 
     @FindBy(css = "a.ico-register")
     WebElement registerLink;
+    @FindBy(linkText = "Log in")
+    WebElement loginLink;
 
     public void openRegistrationPage(){
-        registerLink.click();
+        clickButton(registerLink);
     }
-
+    public void openLoginPage(){
+        clickButton(loginLink);
+    }
 }
