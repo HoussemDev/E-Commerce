@@ -27,6 +27,8 @@ public class UserRegistrationPage extends PageBase {
     public WebElement successMsg;
     @FindBy(linkText = "Log out")
     public WebElement logoutLink;
+    @FindBy(linkText = "My account")
+    WebElement myAccountLink;
 
     public void userRegistration(String name, String lastName, String email, String pswd){
         clickButton(genderRdoBtn);
@@ -41,5 +43,9 @@ public class UserRegistrationPage extends PageBase {
     public void userLogout(){
         clickButton(logoutLink);
     }
+    public void openMyAccountPage(){
+        clickButton(myAccountLink);
+    }
+
 
 }
