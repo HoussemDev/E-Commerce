@@ -2,48 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c13682a-2994-4eff-afea-64855f5fd4ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshots/UserCanRegisterSuccessfully.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/UserCanSearchForProducts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/UserCanSelectSubCategoryFromMainMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/UserCanUseContactUs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/registeredUserCanSendProductToFriend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/userCanAddProductToShoppingCart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/userCanClearCompareList.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/userCanCompareProducts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/userCanRemoveProductFromCart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CheckOutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ComparePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContactUsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductReviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ShoppingCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WishListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helper/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductReviewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToCompareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToShoppingCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToWishListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ChangeCurrencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ContactUsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/EmailFriendTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ProductHoverMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegistredUserCheckOutProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchProductAutoSuggest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/CanAddAuditFAMIQS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/UserCanChangeCurrency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/userCanAddProductToWishList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AuditFAMIQSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserRegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/UserRegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/UserRegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Helper/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helper/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AddProductReviewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AddProductReviewTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AddProductToCompareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AddProductToCompareTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AddProductToShoppingCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AddProductToShoppingCartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AddProductToWishListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AddProductToWishListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ChangeCurrencyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ChangeCurrencyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ContactUsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ContactUsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/EmailFriendTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/EmailFriendTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MyAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/MyAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ProductHoverMenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ProductHoverMenuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SearchProductAutoSuggest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SearchProductAutoSuggest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SearchProductTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SearchProductTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/UserRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/UserRegistrationTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

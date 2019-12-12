@@ -1,7 +1,9 @@
 package tests;
 
 import Helper.Helper;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
@@ -45,5 +47,29 @@ public class TestBase {
     public void stopDriver(){
         driver.quit();
 
+    }
+
+    public void goToAuditFamiQSMenu() {
+        WebElement organisationButton = driver.findElement(By.xpath("//*[@id=\"side-menu\"]/li[2]/a"));
+        organisationButton.click();
+
+        WebElement OrganisationProfile = driver.findElement(By.xpath("//a[contains(text(),'Test Auto org')]"));
+        OrganisationProfile.click();
+        WebElement auditMenu = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/aside[1]/div[1]/div[1]/div[1]/a[2]"));
+
+        //WebElement auditMenu = driver.findElement(By.xpath("//a[contains(text(),'Audits')]"));
+        auditMenu.click();
+
+        //	WebElement auditFolderAutomation = driver.findElement(By.xpath("//a[contains(text(),'Audit FAMI-QS Automation')]"));
+        WebElement auditFolderAutomation = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/section[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]"));
+
+        try {
+            //auditFolderAutomation.click();
+            auditFolderAutomation.click();
+
+        } catch (Exception e) {
+            auditFolderAutomation.click();
+
+        }
     }
 }

@@ -3,7 +3,7 @@
     <parameter name="browser" value="chrome"></parameter>
     <test name="Registration Test">
         <classes>
-            <class name="tests.UserRegistrationTest"/>
+            <class name="tests.ContactUsTest"/>
         </classes>
     </test>
 </suite>

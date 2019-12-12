@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="tests.ChangeCurrencyTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanSearchAutoSuggest"/>
+          <include name="stopDriver"/>
+          <include name="UserCanChangeCurrency"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- tests.ChangeCurrencyTest -->
+      <class name="tests.AddProductToWishListTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanAddProductToWishList"/>
+          <include name="stopDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="userCanRemoveProductFromCart"/>
+        </methods>
+      </class> <!-- tests.AddProductToWishListTest -->
+      <class name="tests.EmailFriendTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanSearchAutoSuggest"/>
+          <include name="stopDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="registeredUserCanSendProductToFriend"/>
+        </methods>
+      </class> <!-- tests.EmailFriendTest -->
+      <class name="tests.MyAccountTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="RegisteredUserCanLogin"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="screenShotOnFailure"/>
+          <include name="RegisteredUserCanChangePassword"/>
+        </methods>
+      </class> <!-- tests.MyAccountTest -->
+      <class name="tests.AddProductToCompareTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanClearCompareList"/>
+          <include name="stopDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="userCanCompareProducts"/>
+        </methods>
+      </class> <!-- tests.AddProductToCompareTest -->
+      <class name="tests.ContactUsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="UserCanUseContactUs"/>
+          <include name="stopDriver"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.UserRegistrationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="RegisteredUserCanLogin"/>
+        </methods>
+      </class> <!-- tests.UserRegistrationTest -->
+      <class name="tests.AddProductToShoppingCartTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="userCanRemoveProductFromCart"/>
+          <include name="userCanAddProductToShoppingCart"/>
+        </methods>
+      </class> <!-- tests.AddProductToShoppingCartTest -->
+      <class name="tests.ProductHoverMenuTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="UserCanSelectSubCategoryFromMainMenu"/>
+        </methods>
+      </class> <!-- tests.ProductHoverMenuTest -->
+      <class name="tests.AuditFAMIQSTest">
+        <methods>
+          <include name="CanEditProfileOrgAuditFAMIQS"/>
+          <include name="CanEditDetailsAuditFAMIQS"/>
+          <include name="stopDriver"/>
+          <include name="CanEditTeamAndAuditeAuditFAMIQS"/>
+          <include name="CanValidateAuditReviewValidationFAMIQS"/>
+          <include name="CanEditDatesAndOrgAuditFAMIQS"/>
+          <include name="startDriver"/>
+          <include name="CanAddFindingFAMIQS"/>
+          <include name="CanEditGeneralImpAuditFAMIQS"/>
+          <include name="CanEditConclusionAuditFAMIQS"/>
+          <include name="screenShotOnFailure"/>
+          <include name="CanUnlocktheAuditFAMIQS"/>
+          <include name="CanValidateAuditLeadAuditorFAMIQS"/>
+          <include name="CanAddAuditFAMIQS" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.AuditFAMIQSTest -->
+      <class name="tests.AddProductReviewTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="userCanSearchAutoSuggest"/>
+          <include name="stopDriver"/>
+          <include name="UserCanRegisterSuccessfully"/>
+          <include name="screenShotOnFailure"/>
+          <include name="RegisteredUserCanReviewProduct"/>
+        </methods>
+      </class> <!-- tests.AddProductReviewTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
