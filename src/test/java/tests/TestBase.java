@@ -19,13 +19,13 @@ public class TestBase {
     @Parameters({"browser"})
     public void startDriver(@Optional("chrome") String browserName){
         if (browserName.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
             driver = new ChromeDriver();
         }
-      else if (browserName.equalsIgnoreCase("firefox")){
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
-            driver = new FirefoxDriver();
-        }
+//      else if (browserName.equalsIgnoreCase("firefox")){
+//            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
+//            driver = new FirefoxDriver();
+//        }
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);

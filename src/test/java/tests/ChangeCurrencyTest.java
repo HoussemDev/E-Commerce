@@ -18,17 +18,17 @@ public class ChangeCurrencyTest extends TestBase{
         homeObject.changeCurrency();
     }
 
-    @Test(priority = 2)
-    public void userCanSearchAutoSuggest(){
-        try {
-            searchObject = new SearchPage(driver);
-            searchObject.productSearchAutoSuggest("MacB");
-            productDetailsObject = new ProductDetailsPage(driver);
-            Assert.assertTrue(productDetailsObject.productPriceLbl.getText().contains("Ђ"));
-            System.out.println(productDetailsObject.productPriceLbl.getText());
-
-        }catch (Exception e){
-            System.out.println("Error occured " + e.getMessage() );
-        }
-    }
+//    @Test(priority = 2)
+//    public void userCanSearchAutoSuggest(){
+//        try {
+//            searchObject = new SearchPage(driver);
+//            searchObject.productSearchAutoSuggest("MacB");
+//            productDetailsObject = new ProductDetailsPage(driver);
+//            Assert.assertTrue(productDetailsObject.productPriceLbl.getText().contains("Ђ"));
+//            System.out.println(productDetailsObject.productPriceLbl.getText());
+//
+//        }catch (Exception e){
+//            System.out.println("Error occured " + e.getMessage() );
+//        }
+//    }
 }
